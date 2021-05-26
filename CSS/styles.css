@@ -1,0 +1,99 @@
+header{
+    max-height: 60px;
+    background-color:#F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav{
+    display: inline-flex;
+}
+
+.Section-hebergement-de-marseille .img{
+    display: block;
+    justify-content: space-around;
+}
+#content-hebergements{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#content-hebergements-de-marseille{
+    background: #F2F2F2;
+    border: 1px;
+    border-radius: 10px;
+    height: 300px;
+    width: 70%;
+}
+.leftbox{
+    background-color:lightgrey;
+    margin-right: 10px;
+    height: 300px;
+    display: inline-block;
+    align-content: space-around;
+}
+
+.leftbox .img{
+    display: inline-block;
+    align-content: space-around;
+}
+.rightbox{
+    background-color:lightgrey;
+    vertical-align: top;
+    margin-left: 10px;
+    border: 1px;
+    border-radius: 10px;
+    width: 30%;
+    height: 300px;
+}
+.bottombox{
+    background-color: #F2F2F2;
+    border: 1px;
+    border-radius: 10px;
+
+}
+
+.bottombox .a{
+    display: block;
+}
+
+.link_footer{
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.footer.btn a {
+    text-decoration: none;
+    display:inline-block;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+footer {
+    min-height: 150px;
+    width: 100%;
+    background-color: lightgrey;
+    position:absolute;
+    bottom: 0;    
+}
+.footer_row {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul {
+    padding-left: 0;
+}
+nav {
+    display: block;
+    justify-content: left;
+
+}
+nav .item {
+    padding: 5px;
+}
+nav .item:hover {
+    background-color: grey;
+}
