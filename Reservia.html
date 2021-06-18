@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html>
+<html>
         <head> <!--En tête-->
             <meta charset="utf-8">
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,55 +17,178 @@
                 </div>
             <nav>
                 <div class="item">
-                    <a href="#" class="header-nav-link">Hébergement</a>
+                    <a href="#" id="overline" class="header-nav-link">Hébergement</a>
                 </div>
                 <div class="item">
-                    <a href="#" class="header-nav-link">Activités</a>
+                    <a href="#"  class="header-nav-link">Activités</a>
                 </div>
                 <div class="item">
-                    <a href="#" class="header-nav-link">S'inscrire</a>
+                    <a href="#" id="blue-bold" class="header-nav-link">S'inscrire</a>
                 </div>
             </nav>
             </header>
-            <nav>
-                </div><!--Section Navigation-->
-                <p><strong><h3>Trouvez des hébergements pour des vacances de rêve</h3></strong><br>
-                    En plein centre ville ou en pleine nature</p>
-                
-                <div class="Section-nav">
-                <div class="Section-nav-navbar">
-                    <input type="search">
-                <div class="Setion-nav-Filters"><h4>Filtres</h4>
+                <div class=search><!--Section Recherche-->
+                    <div class="title">
+                        <h3>Trouvez des hébergements pour des vacances de rêve</h3>
+                    </div>
+                    <div class="subtitle">
+                        <p>En plein centre ville ou en pleine nature</p>
+                    </div>
+                    <div class="Section-search">
+                        <div id="map">
+                            <img src="images/map.svg" alt="map-marker" id="marker">
+                        </div>
+                    <div class="Section-search-bar">
+                    <div>
+                        <form method="post" action="#" id="search-location">
+                        <input type="text" name="search-bar" placeholder="Marseille, France" id="search-bar">
+                        <input type="submit" id="bouton" value="Rechercher">
+                    </form>
+                    </div>
+                    </div>
                 </div>
-            </nav>
-                <div id ="content-hebergements"><!--Section Hebergements-->
+                    <div id="Filters">
+                        <ul>
+                        <li>Filtres</li>
+                            <li class="fil">
+                                <img src="images/money-bill-wave-solid.svg" alt="fi-eco">
+                                <a href="#">Economique</a>
+                            </li>
+                            <li class="fil">
+                                <img src="images/child-solid.svg" alt="fi-family">
+                                <a href="#">Famille</a>
+                            </li>
+                            <li class="fil">
+                                <img src="images/heart-solid.svg" alt="fi-ro">
+                                <a href="#">Romantique</a>
+                            </li>
+                            <li class="fil">
+                                <img src="images/dog-solid.svg" alt="fil-pet">
+                                <a href="#">Animaux domestiques</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+            <div id="info">
+                <div>
+                    <img src="images/info-solid.svg" alt=info>
+                </div>
+                    <div id="info-text">Plus de 500 logements sont disponibles dans cette ville</div>     
+                </div>
+            </div>
+            <div id ="content-hebergements"><!--Section Hebergements-->
                     <div id="content-hebergements-de-marseille">
-                        <div class="leftbox">
-                            <div class="Setion-Hebergements">
                                 <div class="Section-Hebergements-de-Marseille">
-                                    <p>Herbergement de Marseilles</p>
-                                    <p> 
-                                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge Le Cannebière" height="50px 70px 50px 70px">Auberge La Cannebière
-                                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" height="50px 70px 50px 70px">Hôtel du port
-                                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les Mouettes" height="50px 70px 50px 70px">Hôtel Les Mouettes
-                                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" height="50px 70px 50px 70px">Hôtel de la mer
-                                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" height="50px 70px 50px 70px">Auberge Le Panier
-                                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" height="50px 70px 50px 70px">Hôtel chez Amina
-                                    </p>
-                                </div>
-                            </div>
+                                    <div class="Title"><p>Herbergement de Marseilles</p>
+                                    <br>
+                                    </div>
+                                    <div class="card">
+                                        <a href="#">
+                                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge Le Cannebière" class="icard" height="50px 70px 50px 70px">
+                                        </a>
+                                        <a href="#" class="tcard">
+                                            <span class="bold">Auberge de la Cannebière</span>
+                                            <br>
+                                            Nuit à partir de
+                                            <span class="bold">25€</span>
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="#">
+                                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" class="icard" height="50px 70px 50px 70px">
+                                        </a>
+                                        <a href="#" class="tcard">
+                                            <span class="bold">Hôtel du port</span>
+                                            <br>
+                                            Nuit à partir de 52€
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="#">
+                                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les Mouettes" class="icard" height="50px 70px 50px 70px">
+                                        </a>
+                                        <a href="#" class="tcard">
+                                            <span class="bold">Hôtel Les Mouettes</span>
+                                            <br>
+                                            Nuit à partir de 76€
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="#">
+                                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" class="icard" height="50px 70px 50px 70px">
+                                        </a>
+                                        <a href="#" class="tcard">
+                                            <span class="bold">Hôtel de la mer</span>
+                                            <br>
+                                            Nuit à partir de 45€
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="#">
+                                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" class="icard" height="50px 70px 50px 70px">
+                                        </a>
+                                        <a href="#" class="tcard">
+                                            <span class="bold">Auberge Le Panier</span>
+                                            <br>
+                                            Nuit à partir de
+                                            <span class="bold">23€</span>
+                                        </a>    
+                                    </div>
+                                    <div class="card">
+                                        <a href="#">
+                                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" class="icard" height="50px 70px 50px 70px">
+                                        </a>
+                                        <a href="#" class="tcard">
+                                            <span class="bold">Hôtel chez Amina</span>
+                                            <br>
+                                            Nuit à partir de 96€
+                                        </a>
+                                    </div>
                         </div>
                     </div>
                         <div class="rightbox">
                             <div class="Section-Les-plus-populaires">
-                            <p>
-                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" height="50px 70px 50px 70px">Hôtel Soleil du matin
-                                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau" height="50px 70px 50px 70px">Au coeur de l'eau
-                                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tous bleu et blanc" height="50px 70px 50px 70px">Hôtel tous bleu et blanc
-                            </p>
+                                <div class="Title">
+                                    <p>Les plus populaires</p>
+                                    <img src="images/chart-line-solid.svg" alt="chart-line">
+                                </div>
+                                    <div class="card">
+                                        <a href="#">
+                                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" height="50px 70px 50px 70px">
+                                        </a>
+                                        <a href="#" class="tcard">
+                                            <span class="bold">Hôtel du matin</span>
+                                            <br>
+                                            Nuit à partir de 128€
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="#">
+                                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau" height="50px 70px 50px 70px">
+                                        </a>
+                                        <a href="#" class="tcard">
+                                            <span class="bold">Au coeur de l'eau</span>
+                                            <br>
+                                            Nuit à partir de 71€
+                                        </a>
+                                    </div>
+                                    <div class="card">
+                                        <a href="#">
+                                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tous bleu et blanc" height="50px 70px 50px 70px">
+                                        </a>
+                                        <a href="#" class="tcard">
+                                            <span class="bold">Hôtel tous bleu et blanc</span>
+                                            <br>
+                                            Nuit à partir de 68€
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
                         <div class="bottombox"><!--Section Activités-->
                             <div class="Sections-Activités-à-Marseille">
                                 <p>
@@ -78,7 +201,7 @@
                                 </p>
                             </div>
                         </div>
-                <footer>
+                <footer><!--Footer-->
                     <div class="footer_row">
                         <div class="Footer-A-Propos">
                             <h3>A Propos</h3>
@@ -112,4 +235,4 @@
                 </div>
             </footer>
         </body>
-    </html>
+</html>

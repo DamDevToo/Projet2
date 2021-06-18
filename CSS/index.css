@@ -2,7 +2,5 @@ body, html {
     font-family: "Raleway";
     margin: 0%;
     padding: 0%;
-    background-color: #F2F2F2;
-    max-height: 100%;
-    max-width: 100%;
+    overflow: scroll;
 }
