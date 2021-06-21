@@ -63,6 +63,7 @@ nav{
     width: 15px;
     margin-left: 10px;
     margin-top: 10px;
+    color: black;
 }
 
 .Section-search{
@@ -97,7 +98,10 @@ input#search-bar::placeholder{
 #Filters{
     margin-left: 20px;
     margin-top: 50px;
-    
+}
+
+#Filters li.text{
+    padding-top: 10px;
 }
 
 #Filters ul{
@@ -110,28 +114,35 @@ input#search-bar::placeholder{
 
 li.fil{
     border: 1px solid;
-    border-radius: 15px;
-    height: 32px;
-    
+    border-radius: 19px;
+    color:lightgrey;
 }
 
-li.fil .a{
+li.fil.a{
     padding-bottom: 10px;
 }
 
 #Filters a{
     text-decoration: none;
     color: black;
-    height: 26px;
+    padding-right: 10px;
+
 }
 
-#Filters img {
+#Filters i {
     height: 30px;
     width: 30px;
-    border: 1px solid;
+    border: 1px;
     border-radius: 50px;
-    background-color: lightgrey;
-    color: blue;
+    background-color: #DEEBFF;
+    color:#0065fc;
+    padding-left: 9px;
+    padding-top: 9px;
+    align-content: center;
+}
+
+#Filters i::before{
+    padding-left: 2px;
 }
 
 #info{
@@ -145,14 +156,19 @@ li.fil .a{
     align-items: center;
 }
 
-#info img{
-    height: 20px;
-    width: 20px;
-    padding-right: 20px;
-    color:blue;
+#info i{
+    height: 25px;
+    width: 25px;
     border: 1px solid;
     border-radius: 30px;
-    align-content: center;
+    margin-right: 20px;
+    color:lightgrey;
+    align-items: center;
+}
+
+#info i::before{
+    padding-left: 10px;
+    color:#0065fc;
 }
 
 .Section-Hebergements-de-Marseille{
