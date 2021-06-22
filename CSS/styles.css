@@ -12,6 +12,7 @@ header{
 nav{
     display: flex;
 }
+
 .header-nav-link{
     display: flex;
     justify-content: space-around;
@@ -173,14 +174,14 @@ li.fil.a{
 
 .Section-Hebergements-de-Marseille{
     display: flex;
-    height: 450px;
+    height: 700px;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-around;
 }
 
 img.icard{
-    height: 140px;
-    width: 200px;
+    height: 100px;
+    width: 220px;
     border: 1px none;
     border-radius: 10px 10px 0 0;
     align-content: center;
@@ -209,6 +210,8 @@ img.icard{
     height: 50px;
     font-weight: bolder;
     justify-content: space-between;
+    padding-left: 25px;
+    padding-top: 25px;
 }
 
 .Title img{
@@ -218,8 +221,6 @@ img.icard{
     padding-right: 20px;
 }
 
-
-
 .card{
     display:flex;
     flex-direction: column;
@@ -227,17 +228,26 @@ img.icard{
     border: 1px;
     border-radius: 10px;
     flex-wrap: wrap;
-    width:200px;
+    width:220px;
+    height: 180px;
 }
 
 .tcard{
     text-decoration: none;
     color: black;
+    padding-left: 5px;
 }
 
 .bold{
     font-weight: bold;
 }
+
+.bold-plus a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .rightbox{
     background-color:lightgrey;
     vertical-align: top;
@@ -248,6 +258,19 @@ img.icard{
     height: 300px;
 }
 
+.stars{
+    padding-left: 5px;
+}
+
+.blue-star{
+    color:#0065fc;
+    width:20px;
+    display: inline-block;
+}
+
+.grey-star{
+    color: #DEEBFF;
+}
 .bottombox{
     background-color: #F2F2F2;
     border: 1px;
