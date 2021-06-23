@@ -174,7 +174,7 @@ li.fil.a{
 
 .Section-Hebergements-de-Marseille{
     display: flex;
-    height: 700px;
+    height: 600px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -242,10 +242,15 @@ img.icard{
     font-weight: bold;
 }
 
+.bold-plus{
+    width: 100%;
+}
+
 .bold-plus a{
     color: black;
     font-weight: bold;
     text-decoration: none;
+    padding-left: 20px;
 }
 
 .rightbox{
