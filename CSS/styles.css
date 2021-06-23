@@ -297,18 +297,17 @@ img.icard{
 /*Populaires*/
 .rightbox{
     background-color:#F2F2F2;
-    vertical-align: top;
     margin-left: 10px;
     border: 1px;
     border-radius: 10px;
     width: 30%;
-    height: 600px;
+    justify-content: space-between;
 }
 
 .Section-Les-plus-populaires{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .rightbox .Title{
@@ -333,24 +332,27 @@ i.fas.fa-chart-line{
     margin-bottom: 20px;
 }
 
-.Section-Les-plus-populaires .tcard{
+.Section-Les-plus-populaires a.tcard{
     text-decoration: none;
     color: black;
     padding-left: 5px;
     padding-top: 20px;
-    
+    display: flex;
+    flex-direction: column;
+    height: 50px;
 }
 
 .Section-Les-plus-populaires img{
-    height: 100px;
-    width: 220px;
+    height: 110px;
     border: 1px none;
-    border-radius: 10px 10px;
+    border-radius: 10px 0px 0px 10px;
+    padding-top: 5px;
+    padding-left: 5px;
     
 }
 
 
-.stars{
+.left-stars{
     padding-left: 5px;
 }
 
