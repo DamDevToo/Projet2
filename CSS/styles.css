@@ -156,6 +156,7 @@ li.fil{
 li.fil:hover{
     background-color: #0065fc;
     color: white;
+    cursor: pointer;
 }
 
 
