@@ -2,18 +2,20 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 2px;
+    height: 70px;
 }
+
 
 .header__logo{
     padding-top: 2px;
     margin-left: 20px;
-    
 }
 
 .header__logo img{
     height: 50px;
     width: 100px;
+    padding-top: 10px;
 }
 
 nav{
@@ -25,7 +27,7 @@ nav .item {
 }
 
 nav .item:hover {
-    border-top: 3px solid blue;
+    border-top: 1px solid blue;
 }
 
 nav .item:hover a{
@@ -40,8 +42,8 @@ nav .item:hover a{
     display: flex;
     justify-content: space-around;
     text-decoration: none;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
     font-weight: bold;
     font-size: 0.8em;
     color: black;
