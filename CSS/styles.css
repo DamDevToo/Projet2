@@ -7,7 +7,7 @@ header{
 
 
 .header__logo{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .header__logo img{
@@ -74,10 +74,12 @@ nav .item:hover a{
 .search h3{
     font-weight: bold;
     font-size: 1em;
+    margin-left: 16px;
 }
 
 .search p{
     font-size: 0.8em;
+    margin-left: 16px;
 }
 
 #search-location{
@@ -103,14 +105,14 @@ nav .item:hover a{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 20px;
+    margin-left: 35px;
     width: 50%;
 }
 
 #search-bar{
     font-weight: bolder;
     font-size: 1em;
-    padding-left: 10px;
+    margin-left: 10px;
     border: none;
 }
 
@@ -132,8 +134,8 @@ input#search-bar::placeholder{
 
 /*Filtres*/
 #Filters{
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-left: 45px;
+    margin-top: 30px;
 }
 
 #Filters li.text{
@@ -149,8 +151,8 @@ input#search-bar::placeholder{
 }
 
 li.fil{
-    border: 1px solid lightgrey;
-    border-radius: 19px;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
 }
 
 li.fil:hover{
@@ -169,7 +171,6 @@ li.fil:hover{
     color:#0065fc;
     padding-left: 9px;
     padding-top: 9px;
-    align-content: center;
 }
 
 #Filters i::before{
@@ -183,6 +184,7 @@ li.fil:hover{
     flex-direction: row;
     padding-left: 20px;
     width: 60%;
+    height: 10px;
     justify-content: flex-start;
     align-items: center;
 }
