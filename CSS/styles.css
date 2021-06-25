@@ -2,13 +2,11 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding-top: 2px;
     height: 70px;
 }
 
 
 .header__logo{
-    padding-top: 2px;
     margin-left: 20px;
 }
 
