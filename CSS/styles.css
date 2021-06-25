@@ -111,12 +111,9 @@ nav .item:hover a{
     font-weight: bolder;
     font-size: 1em;
     padding-left: 10px;
-    
-}
-
-#search-bar{
     border: none;
 }
+
 
 input#search-bar::placeholder{
     color:black;
