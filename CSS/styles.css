@@ -88,13 +88,13 @@ nav .item:hover a{
     height: 36px;
     width: 36px;
     border-radius: 10px 0 0 10px;
-    background-color: lightgrey;
+    background-color:#F2F2F2;
 }
 
 .fas.fa-map-marker-alt{
     height:15px;
     width: 15px;
-    margin-left: 10px;
+    margin-left: 12px;
     margin-top: 10px;
     color: black;
 }
@@ -114,8 +114,8 @@ nav .item:hover a{
     
 }
 
-input#search-bar{
-    border-style: none;
+#search-bar{
+    border: none;
 }
 
 input#search-bar::placeholder{
@@ -128,7 +128,7 @@ input#search-bar::placeholder{
     background-color: #0065fc;
     font-weight: bolder;
     color: white;
-    border-radius: 0 8px 8px 0 ;
+    border-radius: 0 10px 10px 0 ;
     border: none;
     font-size: 1em;
 }
