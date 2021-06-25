@@ -141,29 +141,15 @@ input#search-bar::placeholder{
 }
 
 li.fil{
-    border: 1px solid;
+    border: 1px solid lightgrey;
     border-radius: 19px;
-    color:lightgrey;
-}
-
-li.fil.a{
-    padding-bottom: 10px;
 }
 
 li.fil:hover{
     background-color: #0065fc;
+    color: white;
 }
 
-li.fil:hover a{
-    color: #F2F2F2;
-}
-
-#Filters a{
-    text-decoration: none;
-    color: black;
-    padding-right: 10px;
-
-}
 
 #Filters i {
     height: 30px;
@@ -180,7 +166,6 @@ li.fil:hover a{
 #Filters i::before{
     padding-left: 2px;
 }
-
 /*Info*/
 #info{
     padding-top: 20px;
@@ -193,19 +178,15 @@ li.fil:hover a{
     align-items: center;
 }
 
-#info i{
-    height: 25px;
-    width: 25px;
-    border: 1px solid;
-    border-radius: 30px;
-    margin-right: 20px;
-    color:lightgrey;
-    align-items: center;
+#info-text {
+    margin-left: 10px;
 }
 
-#info i::before{
-    padding-left: 10px;
-    color:#0065fc;
+.fa-info {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
 }
 
 /*Section-Hebergements*/
@@ -213,7 +194,7 @@ li.fil:hover a{
     display: flex;
     height: 600px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 img.icard{
@@ -416,6 +397,5 @@ ul {
 li {
     text-decoration: none;
 }
-
 
 
