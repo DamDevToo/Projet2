@@ -111,6 +111,11 @@ nav .item:hover a{
     font-weight: bolder;
     font-size: 1em;
     padding-left: 10px;
+    
+}
+
+input#search-bar{
+    border-style: none;
 }
 
 input#search-bar::placeholder{
