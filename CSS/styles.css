@@ -23,9 +23,13 @@ nav{
 }
 
 nav .item {
-    padding: 5px;
+    padding-top: 30px;
+    padding-right: 20px;
 }
 
+nav .item a{
+    padding-left: 20px;
+}
 nav .item:hover {
     border-top: 1px solid blue;
 }
@@ -39,11 +43,7 @@ nav .item:hover a{
 }
 
 .header-nav-link{
-    display: flex;
-    justify-content: space-around;
     text-decoration: none;
-    padding-right: 30px;
-    padding-top: 30px;
     font-weight: bold;
     font-size: 0.8em;
     color: black;
@@ -89,7 +89,7 @@ nav .item:hover a{
 #map{
     height: 36px;
     width: 36px;
-    border-radius: 8px 0 0 8px;
+    border-radius: 10px 0 0 10px;
     background-color: lightgrey;
 }
 
