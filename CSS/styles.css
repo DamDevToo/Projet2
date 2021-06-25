@@ -212,7 +212,7 @@ img.icard{
     height: 100px;
     width: 220px;
     border: 1px none;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
     align-content: center;
     padding-top: 5px;
     padding-left: 5px;
@@ -228,7 +228,7 @@ img.icard{
 #content-hebergements-de-marseille{
     background: #F2F2F2;
     border: 1px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 60%;
     margin-left: 20px;
     flex-wrap: wrap;
@@ -289,9 +289,9 @@ img.icard{
 /*Populaires*/
 .rightbox{
     background-color:#F2F2F2;
-    margin-left: 10px;
+    margin-right: 10px;
     border: 1px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 30%;
     justify-content: space-between;
 }
