@@ -113,7 +113,10 @@ nav .item:hover a{
     font-weight: bolder;
     font-size: 1em;
     margin-left: 10px;
-    border: none;
+    border-left: none;
+    border-right:none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
 }
 
 
