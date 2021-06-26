@@ -202,7 +202,7 @@ li.fil:hover{
 }
 /*Info*/
 #info{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
@@ -212,6 +212,7 @@ li.fil:hover{
     justify-content: flex-start;
     align-items: center;
     margin-left: 25px;
+    margin-bottom: 10px;
 }
 
 #info-text {
@@ -236,9 +237,9 @@ li.fil:hover{
 /*Section-Hebergements*/
 .Section-Hebergements-de-Marseille{
     display: flex;
-    height: 600px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 
 img.icard{
@@ -263,11 +264,10 @@ img.icard{
     background: #F2F2F2;
     border: 1px;
     border-radius: 20px;
-    width: 60%;
+    width: 55%;
     margin-left: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: column;
 }
 
 .Title{
@@ -295,8 +295,7 @@ img.icard{
     flex-wrap: wrap;
     width:230px;
     height: 180px;
-    margin-left: 20px;
-    margin-right: 20px;
+    cursor: pointer;
 }
 
 .Section-Hebergements-de-Marseille .tcard{
@@ -311,6 +310,7 @@ img.icard{
 
 .bold-plus{
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .bold-plus a{
@@ -328,12 +328,12 @@ img.icard{
     border-radius: 20px;
     width: 30%;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .Section-Les-plus-populaires{
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
 }
 
 .rightbox .Title{
@@ -363,8 +363,7 @@ i.fas.fa-chart-line{
     color: black;
     padding-left: 5px;
     padding-top: 20px;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .Section-Les-plus-populaires img{
@@ -373,7 +372,8 @@ i.fas.fa-chart-line{
     border-radius: 10px 0px 0px 10px;
     padding-top: 5px;
     padding-left: 5px;
-    
+    height: 115px;
+    width: 25%;
 }
 
 
