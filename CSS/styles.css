@@ -133,6 +133,8 @@ input#search-bar::placeholder{
     border-radius: 0 10px 10px 0 ;
     border: none;
     font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*Filtres*/
