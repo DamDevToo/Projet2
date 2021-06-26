@@ -32,12 +32,21 @@ nav .item:hover {
     border-top: 1px solid blue;
 }
 
+nav .item2 {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+nav .item2 a{
+    padding-left: 20px;
+}
 nav .item:hover a{
     color:#0065fc;
 }
 
 #blue-bold.header-nav-link:hover{
     color:black;
+    border-top: none;
 }
 
 .header-nav-link{
@@ -49,7 +58,7 @@ nav .item:hover a{
 
 
 #blue-bold{
-    color:blue;
+    color: #0065fc;
 
 }
 
