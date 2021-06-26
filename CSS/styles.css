@@ -152,18 +152,21 @@ input#search-bar::placeholder{
 #Filters{
     margin-left: 45px;
     margin-top: 30px;
+
 }
 
 #Filters li.text{
     padding-top: 10px;
+    margin-right: 20px;
 }
 
 #Filters ul{
     display:flex;   
-    justify-content:space-between;
     list-style-type: none;
     font-weight: bolder;
-    width: 50%;
+    width: 100%;
+    gap: 2%;
+    
 }
 
 li.fil{
@@ -208,6 +211,7 @@ li.fil:hover{
     height: 10px;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 25px;
 }
 
 #info-text {
@@ -252,6 +256,7 @@ img.icard{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: 15px;
 }
 
 #content-hebergements-de-marseille{
