@@ -237,9 +237,10 @@ li.fil:hover{
 /*Section-Hebergements*/
 .Section-Hebergements-de-Marseille{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 30px;
+    gap: 25px;
 }
 
 img.icard{
@@ -264,10 +265,10 @@ img.icard{
     background: #F2F2F2;
     border: 1px;
     border-radius: 20px;
-    width: 55%;
+    width: 60%;
     margin-left: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
+
 }
 
 .Title{
@@ -289,28 +290,28 @@ img.icard{
 
 .Section-Hebergements-de-Marseille .card{
     display:flex;
+    flex-direction: row;
     background-color: white;
     border: 1px;
-    border-radius: 15px;
+    border-radius: 20px;
     flex-wrap: wrap;
     width:230px;
     height: 180px;
     cursor: pointer;
+    padding-bottom: 20px;
 }
 
 .Section-Hebergements-de-Marseille .tcard{
     text-decoration: none;
     color: black;
     padding-left: 10px;
+    padding-top: 10px;
 }
 
 .bold{
     font-weight: bold;
 }
 
-#text{
-    padding-top: 10px;
-}
 .bold-plus{
     width: 100%;
     padding-bottom: 20px;
