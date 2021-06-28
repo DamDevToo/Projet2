@@ -300,6 +300,7 @@ img.icard{
     cursor: pointer;
     padding-bottom: 30px;
     box-shadow:0px 0px 10px lightgrey;
+    gap:5px;
 }
 
 .Section-Hebergements-de-Marseille .tcard{
@@ -310,6 +311,10 @@ img.icard{
 }
 
 .bold{
+    font-weight: bold;
+}
+
+.bold-price{
     font-weight: bold;
 }
 
@@ -407,7 +412,6 @@ i.fas.fa-chart-line{
 
 /*Activités*/
 #bottombox{
-    background-color: #F2F2F2;
     border: 1px;
     border-radius: 10px;
     margin-left: 20px;
