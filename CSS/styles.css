@@ -291,7 +291,6 @@ img.icard{
 
 .Section-Hebergements-de-Marseille .card{
     display:flex;
-    flex-direction: row;
     background-color: white;
     border: 1px;
     border-radius: 20px;
@@ -299,8 +298,8 @@ img.icard{
     width:230px;
     height: 180px;
     cursor: pointer;
-    padding-bottom: 20px;
-    box-shadow:5px 5px 5px 2px #F2F2F2;
+    padding-bottom: 30px;
+    box-shadow:0px 0px 10px lightgrey;
 }
 
 .Section-Hebergements-de-Marseille .tcard{
@@ -308,7 +307,6 @@ img.icard{
     color: black;
     padding-left: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .bold{
@@ -364,7 +362,7 @@ i.fas.fa-chart-line{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 85%;
-    box-shadow: 2px 2px 2px lightgrey;
+    box-shadow: 0px 0px 10px lightgrey;
 }
 
 .Section-Les-plus-populaires .tcard{
@@ -390,16 +388,16 @@ i.fas.fa-chart-line{
 
 .left-stars{
     display: flex;
-    padding-top: 10px;
+    gap: 1px;
 }
 
 .right-stars{
     display: flex;
-    padding-top: 20px;
+    gap:1px;
 }
+
 .blue-star{
     color:#0065fc;
-    width:20px;
     display: inline-block;
 }
 
