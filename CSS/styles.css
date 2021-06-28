@@ -276,10 +276,10 @@ img.icard{
     width: 100%;
     height: 50px;
     font-weight: bolder;
-    font-size: 1em;
     justify-content: space-between;
     padding-left: 40px;
     padding-top: 25px;
+    padding-bottom: 10px;
 }
 
 .Title img{
@@ -289,6 +289,9 @@ img.icard{
     padding-right: 20px;
 }
 
+.Title p{
+    font-size: 1.2em;
+}
 .Section-Hebergements-de-Marseille .card{
     display:flex;
     background-color: white;
