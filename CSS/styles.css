@@ -446,17 +446,28 @@ i.fas.fa-chart-line{
 #bottombox{
     border: 1px;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 15px;
+    padding-right: 30px;
     width: 100%;
+    height: 500px;
 }
 
+.Title1{
+    display:flex;
+    width: 100%;
+    height: 50px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 1.2em;
+}
 .Section-Activités-à-Marseille{
     display: flex;
     flex-direction: row;
     gap: 20px;
     margin-left: 20px;
-    padding-right: 20px;
-    width: 100%;
+    width: 98%;
+    height: 360px;
 }
 
 .column{
@@ -464,15 +475,22 @@ i.fas.fa-chart-line{
     flex-direction: column;
     gap: 10px;
     width: 25%;
-    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.tcard1{
+    font-weight: bold;
+    padding-left: 20px;
 }
 .card1{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 0 5px 2px #F2F2F2;
     width: 25%;
     height: 350px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .card1 img{
@@ -485,11 +503,13 @@ i.fas.fa-chart-line{
 .card2{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 0 5px 2px #F2F2F2;
     width: 90%;
-    height: 30%;
+    height: 50%;
     border-radius: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .card2 img{
@@ -502,14 +522,16 @@ i.fas.fa-chart-line{
 .card3{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 0 5px 2px #F2F2F2;
     width: 90%;
-    height: 20%;
+    height: 40%;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .card3 img{
-    height: 60%;
+    height: 70%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -518,14 +540,17 @@ i.fas.fa-chart-line{
 .card4{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0 0 5px 2px #F2F2F2;
     width: 90%;
+    height: 60%;
     border-radius: 20px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .card4 img{
-    height: 150px;
+    height: 120px;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
