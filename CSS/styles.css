@@ -458,7 +458,7 @@ i.fas.fa-chart-line{
     height: 50px;
     font-weight: bolder;
     padding-top: 25px;
-    padding-left: 25px;
+    padding-left: 20px;
     font-size: 1.2em;
 }
 .Section-Activités-à-Marseille{
@@ -594,13 +594,16 @@ i.fas.fa-chart-line{
 footer {
     min-height: 150px;
     width: 100%;
-    background-color: lightgrey;
+    background-color: #F2F2F2;
     
 }
 
 .footer_row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    line-height: 1.5em;
+    width: 70%;
+    margin-left: 40px;
 }
 
 ul {
@@ -612,5 +615,11 @@ ul {
 li {
     text-decoration: none;
 }
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
 
 
