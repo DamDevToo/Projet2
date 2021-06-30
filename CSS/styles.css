@@ -580,13 +580,11 @@ i.fas.fa-chart-line{
 /*Footer*/
 .link_footer{
     text-decoration: none;
-    display: inline-block;
     list-style-type: none;
 }
 
 .footer.btn a {
     text-decoration: none;
-    display:inline-block;
     list-style-type: none;
     justify-content: space-between;
 }
@@ -600,10 +598,11 @@ footer {
 
 .footer_row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    line-height: 1.5em;
-    width: 70%;
+    line-height: 1.7em;
     margin-left: 40px;
+    width: 74%;
 }
 
 ul {
@@ -619,6 +618,10 @@ li {
 footer a{
     text-decoration: none;
     color: black;
+}
+
+footer a:hover{
+    color: #0065fc;
 }
 
 
