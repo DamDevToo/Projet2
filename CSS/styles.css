@@ -240,20 +240,19 @@ li.fil:hover{
 .Section-Hebergements-de-Marseille{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 25px;
+    row-gap: 45px;
 }
 
 img.icard{
     height: 110px;
-    width: 220px;
+    width: 96%;
     border: 1px none;
     border-radius: 20px 20px 0 0;
     align-content: center;
     padding-top: 5px;
     padding-left: 5px;
-    padding-right: 10px;
     object-fit: cover;
 }
 
@@ -269,7 +268,7 @@ img.icard{
     background: #F2F2F2;
     border: 1px;
     border-radius: 20px;
-    width: 60%;
+    width: 65%;
     margin-left: 20px;
     flex-wrap: wrap;
 
@@ -281,7 +280,7 @@ img.icard{
     height: 50px;
     font-weight: bolder;
     justify-content: space-between;
-    padding-left: 60px;
+    padding-left: 30px;
     padding-top: 25px;
     padding-bottom: 10px;
 }
@@ -303,10 +302,10 @@ img.icard{
     border: 1px;
     border-radius: 20px;
     flex-wrap: wrap;
-    width:230px;
-    height: 180px;
+    width: 280px;
+    height: 200px;
     cursor: pointer;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     box-shadow:0px 0px 10px lightgrey;
     gap:5px;
     line-height: 1.5em;
@@ -316,7 +315,6 @@ img.icard{
     text-decoration: none;
     color: black;
     padding-left: 20px;
-    padding-top: 10px;
 }
 
 .night{
@@ -340,11 +338,14 @@ img.icard{
     color: black;
     font-weight: bold;
     text-decoration: none;
-    padding-left: 60px;
+    padding-left: 30px;
 }
 
 /*Populaires*/
-.rightbox{
+aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color:#F2F2F2;
     margin-right: 10px;
     border: 1px;
@@ -356,19 +357,20 @@ img.icard{
 .Section-Les-plus-populaires{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 5px;
+    margin-top: 14px;
     justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
 
 .Title2{
-    width: 90%;
+    width: 89%;
     display:flex;
     height: 50px;
     font-weight: bolder;
     justify-content: space-between;
     padding-top: 25px;
-    padding-left: 25px;
+    padding-left: 35px;
     font-size: 1.2em;
 }
 
@@ -378,44 +380,53 @@ i.fas.fa-chart-line{
 }
 
 
-.Section-Les-plus-populaires .card{
-    display:flex;
+.card-pop{
+    display: flex;
     flex-direction: row;
     background-color: white;
     border: 1px;
     border-radius: 20px;
-    flex-wrap: wrap;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-bottom: 40px;
     box-shadow: 0px 0px 10px lightgrey;
-    height: 150px;
+    height: 140px;
+    width: 85%;
 }
 
-.Section-Les-plus-populaires .tcard{
+.tcard2{
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
-    padding-left: 10px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+    
+
 }
 
-.Section-Les-plus-populaires img{
+
+.icard2{
     border: 1px none;
     border-radius: 20px 0px 0px 20px;
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
     height: 93%;
-    width: 30%;
+    width: 141px;
     object-fit: cover;
+}
+
+.icard2a{
+    width: 141px;
 }
 
 
 .left-stars{
     display: flex;
+    flex-direction: row;
+    justify-content: start;
     gap: 2px;
-    padding-top: 5px;
+    padding-left: 20px;
 }
 
 .right-stars{
@@ -423,11 +434,7 @@ i.fas.fa-chart-line{
     gap:2px;
 }
 
-.last-right-stars{
-    display:flex;
-    gap:2px;
-    padding-top: 5px;
-}
+
 
 .blue-star{
     color:#0065fc;
@@ -466,7 +473,7 @@ i.fas.fa-chart-line{
 .column{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
     width: 25%;
     padding-left: 30px;
 }
@@ -475,6 +482,12 @@ i.fas.fa-chart-line{
     font-weight: bold;
     padding-left: 20px;
 }
+
+.tcard1a{
+    text-decoration: none;
+    color: black;
+}
+
 .card1{
     display: flex;
     flex-wrap: wrap;
@@ -499,17 +512,22 @@ i.fas.fa-chart-line{
     border: 1px solid #F2F2F2;
     box-shadow: 0 0 5px 2px #F2F2F2;
     width: 90%;
-    height: 50%;
+    height: 55%;
     border-radius: 20px;
     margin-bottom: 10px;
     cursor: pointer;
 }
 
 .card2 img{
-    height: 75%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+}
+
+.card2a{
+    height:75%;
+    width: 100%;
 }
 
 .card3{
@@ -518,16 +536,21 @@ i.fas.fa-chart-line{
     border: 1px solid #F2F2F2;
     box-shadow: 0 0 5px 2px #F2F2F2;
     width: 90%;
-    height: 40%;
+    height: 35%;
     border-radius: 20px;
     cursor: pointer;
 }
 
 .card3 img{
-    height: 70%;
+    height: 90%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+}
+
+.card3a{
+    height: 75%;
+    width: 100%;
 }
 
 .card4{
@@ -536,7 +559,7 @@ i.fas.fa-chart-line{
     border: 1px solid #F2F2F2;
     box-shadow: 0 0 5px 2px #F2F2F2;
     width: 94%;
-    height: 50%;
+    height: 45%;
     border-radius: 20px;
     margin-left: 10px;
     cursor: pointer;
@@ -544,11 +567,16 @@ i.fas.fa-chart-line{
 }
 
 .card4 img{
-    height: 110px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 
+}
+
+.card4a{
+    height: 75%;
+    width: 100%;
 }
 
 .card5{
@@ -557,18 +585,23 @@ i.fas.fa-chart-line{
     border: 1px solid #F2F2F2;
     box-shadow: 0 0 5px 2px #F2F2F2;
     width: 94%;
-    height: 50%;
+    height: 44%;
     border-radius: 20px;
     margin-left: 10px;
     cursor: pointer;
 }
 
 .card5 img{
-    height: 110px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 
+}
+
+.card5a{
+    height: 75%;
+    width: 100%;
 }
 /*Footer*/
 .link_footer{
