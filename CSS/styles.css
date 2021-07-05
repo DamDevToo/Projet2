@@ -688,7 +688,8 @@ footer a:hover{
 
     #bottombox{
         height: auto;
-        margin:10px;
+        margin:20px;
+        width: auto;
     }
     aside{
         width: 100%;
@@ -698,15 +699,44 @@ footer a:hover{
 
     .card1{
         width:100%;
+        
     }
 
     .column{
         width: 100%;
         padding-left: 0%;
+        
     }
 
     .card2{
         width: 100%;
+        
+    }
+
+    .card3{
+        width: 100%;
+        
+    }
+
+    .card4{
+        width: 100%;
+        margin-left:0%;
+        
+    }
+
+    .card5{
+        width:100%;
+        margin-left: 0%;
+        
+    }
+
+    .footer{
+        width: 100%;
+    }
+    
+    .footer_row{
+        flex-direction: column;
+        width: auto;
     }
 }
 
