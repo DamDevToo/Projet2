@@ -16,8 +16,22 @@ header{
     padding-top: 10px;
 }
 
+ @media screen and (max-width: 750px) {
+     nav{
+         width: 75%;
+         height: 100%;
+        
+     }
+}
+
 nav{
     display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    width: 50%;
+    min-width: 50%;
 }
 
 nav .item {
@@ -255,6 +269,7 @@ img.icard{
     padding-left: 5px;
     object-fit: cover;
 }
+
 
 #content-hebergements{
     display: flex;
@@ -649,3 +664,49 @@ footer a{
 footer a:hover{
     color: #0065fc;
 }
+
+@media screen and (max-width:600px){
+    #content-hebergements{
+        margin:10px;
+    }
+    
+    #content-hebergements-de-marseille{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #Filters ul{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .Section-Activités-à-Marseille{
+        flex-direction: column;
+        height: auto;
+        margin-left: 0%;
+    }
+
+    #bottombox{
+        height: auto;
+        margin:10px;
+    }
+    aside{
+        width: 100%;
+        margin-right: 0%;
+        margin-top: 20px;
+    }
+
+    .card1{
+        width:100%;
+    }
+
+    .column{
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    .card2{
+        width: 100%;
+    }
+}
+
