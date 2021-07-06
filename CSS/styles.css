@@ -16,14 +16,7 @@ header{
     padding-top: 10px;
 }
 
- @media screen and (max-width: 750px) {
-     nav{
-         width: 75%;
-         height: 100%;
-        
-     }
-}
-
+ 
 nav{
     display: flex;
     flex-wrap: wrap-reverse;
@@ -441,7 +434,6 @@ i.fas.fa-chart-line{
     flex-direction: row;
     justify-content: start;
     gap: 2px;
-    padding-left: 20px;
 }
 
 .right-stars{
@@ -666,24 +658,121 @@ footer a:hover{
 }
 
 @media screen and (max-width:600px){
+    header{
+        height: 120px;
+        width: 100%;
+    }
+    
+    .header{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header__logo{
+        width: 30%;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-wrap: wrap-reverse;
+        width: 83%;
+        height: 120px;
+    }
+   
+    .item{
+        font-size: 1.3em;
+    }
+    .title{
+        margin-bottom: 30px;
+        font-size: 1.6em;
+    }
+
+    .subtitle{
+        margin-top: 15px;
+        font-size: 1.3em;
+    }
+
+    .Section-search{
+        width: 85%;
+    }
+
+    #Filters{
+        margin-top: 10px;
+    }
+
+    #Filters li.text{
+        padding-top: 0%;
+        margin-bottom: 10px;
+    }
+    #Filters ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 5px;
+        width: 60%;
+    }
+
+    #info{
+        width: 85%;
+        font-size: 1.3em;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .fa-info{
+        margin-bottom: 20px;
+    }
     #content-hebergements{
         margin:10px;
+        flex-direction: column-reverse;
     }
     
     #content-hebergements-de-marseille{
         width: 100%;
         margin-left: 0%;
+        background-color: white;
     }
 
-    #Filters ul{
+    .Title{
+        justify-content: flex-start;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Section-Hebergements-de-Marseille{
+        row-gap: 20px;
+        align-items: center;
+    }
+    .Section-Hebergements-de-Marseille .card{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
         flex-direction: column;
-        row-gap: 5px;
+    }
+
+    img.icard {
+        width: 97.5%;
+    }
+
+    .left-stars{
+        padding-left: 0;
+    }
+    
+
+    .card-pop{
+        width: 90%;
     }
 
     .Section-Activités-à-Marseille{
         flex-direction: column;
         height: auto;
         margin-left: 0%;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
     }
 
     #bottombox{
@@ -694,13 +783,24 @@ footer a:hover{
     aside{
         width: 100%;
         margin-right: 0%;
-        margin-top: 20px;
+        margin-bottom: 20px;
     }
+
 
     .card1{
         width:100%;
-        
+        height: 75%;
     }
+
+    .card1 img{
+        height: 200px;
+    }
+
+    .tcard1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
 
     .column{
         width: 100%;
@@ -710,12 +810,21 @@ footer a:hover{
 
     .card2{
         width: 100%;
+        height: 75%;
         
+    }
+
+    .card2 img{
+        height: 200px;
     }
 
     .card3{
         width: 100%;
         
+    }
+
+    .card3 img{
+        height: 200px;
     }
 
     .card4{
@@ -724,10 +833,18 @@ footer a:hover{
         
     }
 
+    .card4 img{
+        height: 200px;
+    }
+
     .card5{
         width:100%;
         margin-left: 0%;
         
+    }
+
+    .card5 img{
+        height: 200px;
     }
 
     .footer{
