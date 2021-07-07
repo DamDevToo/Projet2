@@ -658,29 +658,31 @@ footer a:hover{
         width: 100%;
     }
     
-    .header{
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-    }
 
     .header__logo{
         width: 30%;
+        position: absolute;
     }
 
     nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        flex-wrap: wrap-reverse;
-        width: 83%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
         height: 120px;
-        align-content: flex-end;
+        border-bottom: 1px solid #F2F2F2;
     }
    
     .item{
         font-size: 1.3em;
+        grid-row: 2;
     }
+
+    .item2 {
+        text-align: end;
+        grid-row: 1;
+        grid-column: 2;
+    }
+
     .title{
         margin-bottom: 30px;
         font-size: 1.6em;
@@ -696,7 +698,7 @@ footer a:hover{
     }
 
     #bouton{
-        background: "fas fa-search";
+        background-image: url ();
     }
     #Filters{
         margin-top: 10px;
