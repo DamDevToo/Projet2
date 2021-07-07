@@ -19,12 +19,7 @@ header{
  
 nav{
     display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-content: flex-end;
-    width: 50%;
-    min-width: 50%;
+    
 }
 
 nav .item {
@@ -665,7 +660,6 @@ footer a:hover{
     
     .header{
         height: 100%;
-        width: 100%;
         display: flex;
         flex-direction: row;
     }
@@ -681,6 +675,7 @@ footer a:hover{
         flex-wrap: wrap-reverse;
         width: 83%;
         height: 120px;
+        align-content: flex-end;
     }
    
     .item{
@@ -700,6 +695,9 @@ footer a:hover{
         width: 85%;
     }
 
+    #bouton{
+        background: "fas fa-search";
+    }
     #Filters{
         margin-top: 10px;
         margin-left: 30px;
