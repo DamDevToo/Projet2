@@ -666,40 +666,94 @@ footer a:hover{
 
     nav{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         width: 100%;
         height: 120px;
         border-bottom: 1px solid #F2F2F2;
     }
    
-    .item{
-        font-size: 1.3em;
+    nav .item{
         grid-row: 2;
+        font-weight: normal;
+        text-align: center;
+        padding-right: 30px;
+        font-weight: normal;
+    }
+
+    .header-nav-link{
+        font-size: 0.9em;
+        font-weight: normal;
+    }
+
+    #overline.header-nav-link{
+        padding-left: 50px;
+    }
+
+    #blue-bold.header-nav-link{
+        font-weight: bold;
+    }
+
+
+    nav .item:hover{
+        border-top: none;
+        border-bottom: 1px solid #0065fc;
     }
 
     .item2 {
         text-align: end;
         grid-row: 1;
         grid-column: 2;
+        border-bottom: none;
+        padding-left: 0;
+        padding-right: 0;
+        font-weight: bold;
     }
 
     .title{
-        margin-bottom: 30px;
-        font-size: 1.6em;
+        margin-bottom: 20px;
+        
     }
 
+    .search h3{
+        padding-right: 62px;
+        font-size: 1.3em;
+    }
+
+    .search p{
+        font-size: 0.7em;
+    }
     .subtitle{
         margin-top: 15px;
         font-size: 1.3em;
+        margin-bottom: 30px;
+    }
+
+    #map{
+        height: 45px;
+        width: 45px;
+    }
+
+    .fas.fa-map-marker-alt {
+        margin-left: 16px;
+        margin-top: 16px;
     }
 
     .Section-search{
         width: 85%;
     }
 
-    #bouton{
-        background-image: url ();
+    #search-location {
+        height: 45px;
     }
+
+    input#bouton{
+        background: url(/images/search-solid.svg);
+        cursor: pointer;
+        height: 45px;
+        background-color: #0065fc;
+        color: #F2F2F2;
+    }
+
     #Filters{
         margin-top: 10px;
         margin-left: 30px;
@@ -727,6 +781,7 @@ footer a:hover{
     .fa-info{
         margin-bottom: 20px;
     }
+
     #content-hebergements{
         margin:10px;
         flex-direction: column-reverse;
