@@ -355,6 +355,7 @@ aside{
     border-radius: 20px;
     width: 30%;
     padding-bottom: 20px;
+    min-width: 357px;
 }
 
 .Section-Les-plus-populaires{
@@ -669,34 +670,6 @@ footer a:hover{
         flex-wrap: wrap;
         row-gap: 5px;
     }
-
-    #content-hebergements{
-        margin:10px;
-        flex-direction: column-reverse;
-        gap: 20px;
-    }
-    
-    #content-hebergements-de-marseille{
-        width: 100%;
-        margin-left: 0%;
-
-    }
-
-    aside{
-        min-width: 357px;
-        width: 100%;
-    }
-
-    .Section-Les-plus-populaires{
-        width: 70%;
-     
-    }
-
-    .Title2{
-        width: 63%;
-    }
-
-
 }
 @media screen and (max-width:600px){
     header{
