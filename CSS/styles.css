@@ -393,6 +393,7 @@ i.fas.fa-chart-line{
     box-shadow: 0px 0px 10px lightgrey;
     height: 140px;
     width: 85%;
+    min-width: 85%;
 }
 
 .tcard2{
@@ -652,6 +653,46 @@ footer a:hover{
     color: #0065fc;
 }
 
+
+@media screen and (max-width:1200px){
+    #Filters{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    #Filters li.text{
+        padding-top: 0%;
+        margin-bottom: 10px;
+    }
+    #Filters ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+
+    #content-hebergements{
+        margin:10px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    
+    #content-hebergements-de-marseille{
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    aside{
+        min-width: 357px;
+        width: 100%;
+    }
+
+    .Section-Les-plus-populaires{
+        width: 40%;
+        margin-left: 30%;
+    }
+
+}
 @media screen and (max-width:600px){
     header{
         height: 120px;
@@ -747,7 +788,7 @@ footer a:hover{
     }
 
     input#bouton{
-        background: url(/images/search-solid.svg);
+        background: url(/C:/Users/damro/Documents/OC/Projet2/images/search-solid.svg) no-repeat;
         cursor: pointer;
         height: 45px;
         background-color: #0065fc;
