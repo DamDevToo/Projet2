@@ -655,7 +655,7 @@ footer a:hover{
 }
 
 
-@media screen and (min-width: 600px) and (max-width:1200px) {
+@media screen and (min-width: 700px) and (max-width:1200px) {
     #Filters{
         margin-top: 10px;
         margin-left: 30px;
@@ -670,8 +670,13 @@ footer a:hover{
         flex-wrap: wrap;
         row-gap: 5px;
     }
+
+    #content-hebergements{
+        flex-wrap: unset;
+        gap: 40px;
+    }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     header{
         height: 120px;
         width: 100%;
@@ -786,7 +791,7 @@ footer a:hover{
         flex-direction: column;
         flex-wrap: wrap;
         row-gap: 5px;
-        width: 60%;
+        width: 40%;
     }
 
     #info{
