@@ -152,6 +152,10 @@ input#search-bar::placeholder{
     font-family: "Raleway";
 }
 
+.fa-search{
+    display: none;
+}
+
 /*Filtres*/
 #Filters{
     margin-left: 45px;
@@ -771,13 +775,25 @@ footer a:hover{
     }
 
     input#bouton{
-        background: url(/C:/Users/damro/Documents/OC/Projet2/images/search-solid.svg) no-repeat;
-        cursor: pointer;
-        height: 45px;
-        background-color: #0065fc;
-        color: #F2F2F2;
+        display: none;
+        
+        
     }
 
+    .fa-search{
+        display: block;
+        background-color: #0065fc;
+        color: #F2F2F2;
+        cursor: pointer;
+        height: 45px;
+        width: 50px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    i.fas.fa-search::before{
+        height: 20px;
+        width: 20px;
+    }
     #Filters{
         margin-top: 10px;
         margin-left: 30px;
