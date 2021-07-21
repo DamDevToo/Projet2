@@ -7,7 +7,7 @@ header{
 
 
 .header__logo{
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .header__logo img{
@@ -69,12 +69,10 @@ nav .item:hover a{
 /*Search*/
 .title{
     height: 30px;
-    margin-left: 20px;
 }
 
 .subtitle{
     height:30px;
-    margin-left:20px;
     margin-bottom: 20px;
 }
 
@@ -117,7 +115,7 @@ nav .item:hover a{
 .Section-search{
     display: flex;
     justify-content: flex-start;
-    margin-left: 35px;
+    margin-left: 15px;
     width: 50%;
     align-items: center;
 }
@@ -158,7 +156,7 @@ input#search-bar::placeholder{
 
 /*Filtres*/
 #Filters{
-    margin-left: 45px;
+    margin-left: 20px;
     margin-top: 30px;
 
 }
@@ -214,7 +212,6 @@ li.fil:hover{
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
     width: 60%;
     height: 10px;
     justify-content: flex-start;
@@ -682,6 +679,24 @@ footer a:hover{
 
     #bottombox{
         padding-right: 15px;
+        font-size: 0.8em;
+    }
+
+
+    .tcard2{
+        font-size: 0.8em;
+    }
+
+    .tcard{
+        font-size: 0.8em;
+    }
+
+    .Section-Activités-à-Marseille{
+        margin-left: none;
+    }
+
+    .column{
+        margin-right: 20px;
     }
 }
 
