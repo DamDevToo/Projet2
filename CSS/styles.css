@@ -278,7 +278,7 @@ img.icard{
     width: 65%;
     margin-left: 20px;
     flex-wrap: wrap;
-
+    min-width: 357px;
 }
 
 .Title{
@@ -673,7 +673,7 @@ footer a:hover{
         flex-direction: row;
         flex-wrap: wrap;
         row-gap: 5px;
-        width: 60%;
+        width: fit-content;
     }
 
     #content-hebergements{
@@ -683,6 +683,10 @@ footer a:hover{
 
     aside{
         margin-right: 35px;
+    }
+
+    #bottombox{
+        padding-right: 35px;
     }
 }
 
@@ -794,7 +798,7 @@ footer a:hover{
         border-radius: 0 10px 10px 0;
     }
 
-    .fa-search:before{
+    .fa-search::before{
         height: 20px;
         width: 20px;
         padding-top: 20px;
@@ -812,7 +816,7 @@ footer a:hover{
         flex-direction: column;
         flex-wrap: wrap;
         row-gap: 5px;
-        width: 60%;
+        width: fit-content;
     }
 
     #info{
