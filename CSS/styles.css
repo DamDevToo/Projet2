@@ -268,6 +268,7 @@ img.icard{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: 15px;
+    margin-right: 15px;
 }
 
 #content-hebergements-de-marseille{
@@ -276,9 +277,8 @@ img.icard{
     border: 1px;
     border-radius: 20px;
     width: 65%;
-    margin-left: 20px;
     flex-wrap: wrap;
-    min-width: 357px;
+    min-width: 320px;
 }
 
 .Title{
@@ -354,12 +354,11 @@ aside{
     flex-direction: column;
     flex-wrap: wrap;
     background-color:#F2F2F2;
-    margin-right: 10px;
     border: 1px;
     border-radius: 20px;
     width: 30%;
     padding-bottom: 20px;
-    min-width: 357px;
+    min-width: 320px;
 }
 
 .Section-Les-plus-populaires{
@@ -678,15 +677,11 @@ footer a:hover{
 
     #content-hebergements{
         flex-wrap: unset;
-        gap: 40px;
-    }
-
-    aside{
-        margin-right: 35px;
+        gap: 20px;
     }
 
     #bottombox{
-        padding-right: 35px;
+        padding-right: 15px;
     }
 }
 
@@ -799,9 +794,10 @@ footer a:hover{
     }
 
     .fa-search::before{
-        height: 20px;
-        width: 20px;
-        padding-top: 20px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 15px;
+        position: absolute;
     }
     #Filters{
         margin-top: 10px;
