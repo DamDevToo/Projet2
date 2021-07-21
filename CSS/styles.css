@@ -673,13 +673,19 @@ footer a:hover{
         flex-direction: row;
         flex-wrap: wrap;
         row-gap: 5px;
+        width: 60%;
     }
 
     #content-hebergements{
         flex-wrap: unset;
         gap: 40px;
     }
+
+    aside{
+        margin-right: 35px;
+    }
 }
+
 @media screen and (max-width:700px){
     header{
         height: 120px;
@@ -776,8 +782,6 @@ footer a:hover{
 
     input#bouton{
         display: none;
-        
-        
     }
 
     .fa-search{
@@ -790,9 +794,10 @@ footer a:hover{
         border-radius: 0 10px 10px 0;
     }
 
-    i.fas.fa-search::before{
+    .fa-search:before{
         height: 20px;
         width: 20px;
+        padding-top: 20px;
     }
     #Filters{
         margin-top: 10px;
@@ -807,7 +812,7 @@ footer a:hover{
         flex-direction: column;
         flex-wrap: wrap;
         row-gap: 5px;
-        width: 40%;
+        width: 60%;
     }
 
     #info{
@@ -878,6 +883,7 @@ footer a:hover{
     .Section-Activités-à-Marseille{
         flex-direction: column;
         height: auto;
+        width: auto;
         margin-left: 0%;
         padding-left: 10px;
         padding-right: 10px;
