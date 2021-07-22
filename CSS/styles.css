@@ -301,7 +301,7 @@ img.icard{
 }
 .Section-Hebergements-de-Marseille .card{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: white;
     border: 1px;
     border-radius: 20px;
@@ -465,6 +465,7 @@ i.fas.fa-chart-line{
     padding-left: 20px;
     font-size: 1.2em;
 }
+
 .Section-Activités-à-Marseille{
     display: flex;
     flex-direction: row;
@@ -665,6 +666,7 @@ footer a:hover{
         padding-top: 0%;
         margin-bottom: 10px;
     }
+
     #Filters ul{
         flex-direction: row;
         flex-wrap: wrap;
@@ -682,7 +684,6 @@ footer a:hover{
         font-size: 0.8em;
     }
 
-
     .tcard2{
         font-size: 0.8em;
     }
@@ -693,6 +694,7 @@ footer a:hover{
 
     .Section-Activités-à-Marseille{
         margin-left: none;
+        width: auto;
     }
 
     .column{
@@ -741,7 +743,6 @@ footer a:hover{
         font-weight: bold;
     }
 
-
     nav .item:hover{
         border-top: none;
         border-bottom: 1px solid #0065fc;
@@ -770,6 +771,7 @@ footer a:hover{
     .search p{
         font-size: 0.7em;
     }
+    
     .subtitle{
         margin-top: 15px;
         font-size: 1.3em;
@@ -814,6 +816,7 @@ footer a:hover{
         padding-left: 15px;
         position: absolute;
     }
+
     #Filters{
         margin-top: 10px;
         margin-left: 30px;
@@ -823,6 +826,7 @@ footer a:hover{
         padding-top: 0%;
         margin-bottom: 10px;
     }
+
     #Filters ul{
         flex-direction: column;
         flex-wrap: wrap;
@@ -868,6 +872,7 @@ footer a:hover{
         row-gap: 20px;
         align-items: center;
     }
+
     .Section-Hebergements-de-Marseille .card{
         width: 100%;
         margin-left: 20px;
@@ -883,7 +888,6 @@ footer a:hover{
         padding-left: 0;
     }
     
-
     .card-pop{
         width: 90%;
     }
@@ -895,6 +899,7 @@ footer a:hover{
     .bold-plus a{
         padding-left: 20px;
     }
+
     .Section-Activités-à-Marseille{
         flex-direction: column;
         height: auto;
@@ -911,6 +916,7 @@ footer a:hover{
         width: auto;
         margin-top: 0%;
     }
+
     aside{
         width: 100%;
         margin-right: 0%;
@@ -923,6 +929,7 @@ footer a:hover{
         margin-bottom: 20px;
         padding-left: 10px;
     }
+
     .card1{
         width:100%;
         height: 75%;
