@@ -455,6 +455,7 @@ i.fas.fa-chart-line{
     border-radius: 10px;
     margin-left: 15px;
     height: 500px;
+    padding-right: 10px;
 }
 
 .Title1{
@@ -472,7 +473,6 @@ i.fas.fa-chart-line{
     justify-content: space-between;
     gap: 20px;
     height: 355px;
-    padding-right: 10px;
 }
 
 .column{
@@ -680,8 +680,8 @@ footer a:hover{
     }
 
     #bottombox{
-        padding-right: 15px;
         font-size: 0.8em;
+        padding-right: 0;
     }
 
     .tcard2{
@@ -693,12 +693,12 @@ footer a:hover{
     }
 
     .Section-Activités-à-Marseille{
-        margin-left: none;
+        margin-left: 0;
         width: auto;
     }
 
     .column{
-        margin-right: 20px;
+        margin-right: 15px;
     }
 }
 
@@ -906,7 +906,6 @@ footer a:hover{
         width: auto;
         margin-left: 0%;
         padding-left: 10px;
-        padding-right: 10px;
         align-items: center;
     }
 
