@@ -246,6 +246,7 @@ li.fil:hover{
     justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 45px;
+    column-gap: 10px;
 }
 
 img.icard{
@@ -870,7 +871,6 @@ footer a:hover{
     .Section-Hebergements-de-Marseille{
         row-gap: 20px;
         align-items: center;
-        column-gap: 10px;
     }
 
     .Section-Hebergements-de-Marseille .card{
