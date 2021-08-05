@@ -857,7 +857,7 @@ footer a:hover{
     }
 
     #content-hebergements{
-        margin:10px;
+        margin:0;
         flex-direction: column-reverse;
     }
     
@@ -902,6 +902,10 @@ footer a:hover{
         width: 90%;
     }
 
+    aside{
+        border-radius: 0;
+    }
+    
     .bold-plus{
         padding-bottom: 0%;
     }
